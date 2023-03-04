@@ -114,3 +114,214 @@ textarea {
 .basket-btn img:hover {
     transform: scale(1.2);
 }
+
+.main-screen {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-screen .slide {
+    padding: 82px 56px 135px 56px;
+    background-color: #EBDDFE;
+    border-radius: 25px;
+    background-image: url('../images/main-screen/slide-1.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    min-height: 550px;
+}
+
+.main-screen .slide__content {
+    max-width: 700px;
+}
+
+.main-screen .slide h2 {
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 70px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-screen .slide p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    max-width: 476px;
+}
+
+.main-screen .slide a {
+    font-family: 'Cardo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #000000;
+    padding: 11px 28px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px transparent;
+    border-radius: 25px;
+    transition: all ease-in-out .4s;
+}
+
+.main-screen .slide a:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-screen .slide-1 {
+    background-color: #EBDDFE;
+    border-radius: 25px;
+    background-image: url('../images/main-screen/slide-1.jpg');
+}
+
+.main-screen .slide-2 {
+    border-radius: 25px;
+    background-image: url('../images/main-screen/slide-2.jpg'), radial-gradient(98.45% 98.45% at 49.97% 1.55%, #FCFDFF 0%, #919195 100%);;
+}
+
+.main-screen .swiper-button-next::after, 
+.main-screen .swiper-button-prev::after {
+    color: #08090D;
+    font-size: 24px;
+    transition: all ease-in-out .4s;
+}
+
+.main-screen .swiper-button-prev {
+    left: 20px;
+}
+
+.main-screen .swiper-button-next {
+    right: 20px;
+}
+
+.main-screen .swiper-button-next:hover::after, 
+.main-screen .swiper-button-prev:hover::after {
+    transform: scale(1.3);
+}
+
+.main-screen .swiper-pagination-bullet {
+    width: 194px;
+    height: 2px;
+    border-radius: 0;
+}
+
+.main-screen .swiper-pagination-bullet-active {
+    background: #000000;
+}
+
+.offers {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.offers h2 {
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.offers p {
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 55px;
+    max-width: 628px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offers .offers__wrapp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.offer-group {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.offer {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.offer h3 {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.offer-1 h3,
+.offer-4 h3 {
+    color: #ffffff;
+}
+
+.offer-2 h3,
+.offer-3 h3 {
+    color: #000000;
+}
+
+.offer-1 img {
+    min-width: 639px;
+    max-width: 639px;
+}
+
+.offer-3 img,
+.offer-4 img {
+    max-width: 312px;
+    min-width: 312px;
+}
+
+.offer-3 img {
+    height: inherit;
+}
+
+.offer-1 h3 {
+    right: 44px;
+    bottom: 77px;
+}
+
+.offer-2 img {
+    max-width: 459px;
+    max-height: 270px;
+}
+
+.offer-2 h3 {
+    right: 11px;
+    top: 115px;
+}
+
+.offer-3 h3 {
+    left: 40px;
+    bottom: 62px;
+}
+
+.offer-4 h3 {
+    left: 73px;
+    bottom: 52px;
+    text-align: center;
+}
