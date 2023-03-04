@@ -692,3 +692,90 @@ textarea {
     background: transparent;
     border-left: 1px solid transparent;
 }
+
+.footer {
+    background-color: #F8F9FA;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.footer__above {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #DCE5E2;
+}
+
+.footer .logo img {
+    max-width: 224px;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    max-width: 200px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.footer h3 {
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.footer ul li:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.footer ul a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    transition: all ease-in-out .4s;
+}
+
+.footer ul a:hover {
+    color: #9553f1;
+}
+
+.footer__copyright {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .copyright {
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.footer .copyright a {
+    font-family: 'Inter', sans-serif;
+    transition: all ease-in-out .4s;
+}
+
+.footer .copyright a svg {
+    transition: all ease-in-out .4s;
+}
+
+.footer .copyright a:hover {
+    color: #9553f1;
+}
+
+.footer .copyright a:hover svg {
+    transform: scale(1.2);
+}
