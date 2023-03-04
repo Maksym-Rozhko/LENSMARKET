@@ -28,4 +28,12 @@ document.addEventListener('DOMContentLoaded', () => {
           clickable: true,
         },
     });
+
+	new Swiper('.our-items-slider.swiper', {
+        slidesPerView: 4,
+        loop: true,
+		speed: 1000,
+		autoplay: true,
+		spaceBetween: 20,
+    });
 });
